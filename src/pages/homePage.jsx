@@ -4,10 +4,10 @@ import  React  from 'react'
 import './homePage.styles.scss'
 import Directory from '../component/directory/directory'
 
-const HomePage = () => {
+const HomePage = ({history}) => {
   return (
-    <div className='homePage'>
-        <Directory/>
+    <div className='homepage'>
+        <Directory history={history}/>
         
     
     </div>
